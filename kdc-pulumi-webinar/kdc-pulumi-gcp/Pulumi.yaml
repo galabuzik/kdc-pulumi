@@ -1,0 +1,7 @@
+name: kdcs-pulumi-gcp
+runtime: dotnet
+description: Deploy GKE on GCP using C# and Pulumi
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: ""

@@ -1,0 +1,7 @@
+name: kdcs-pulumi-aws
+runtime: dotnet
+description: Deploy an EKS Cluster on AWS using C# and Pulumi
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: ""

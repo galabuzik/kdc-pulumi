@@ -1,0 +1,7 @@
+name: kdcs-pulumi-azure
+runtime: dotnet
+description: Deploy an AKS Cluster on Azure using C# and Pulumi
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: ""
