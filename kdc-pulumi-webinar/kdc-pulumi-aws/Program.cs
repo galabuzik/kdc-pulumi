@@ -9,8 +9,8 @@ return await Deployment.RunAsync(() =>
     var config = new Config();
     var minClusterSize = config.GetInt32("minClusterSize") ?? 2;
     var maxClusterSize = config.GetInt32("maxClusterSize") ?? 6;
-    var desiredClusterSize = config.GetInt32("desiredClusterSize") ?? 4;
-    var eksNodeInstanceType = config.Get("eksNodeInstanceType") ?? "t3.medium";
+    var desiredClusterSize = config.GetInt32("desiredClusterSize") ?? 3;
+    var eksNodeInstanceType = config.Get("eksNodeInstanceType") ?? "t2.medium";
     var vpcNetworkCidr = config.Get("vpcNetworkCidr") ?? "10.0.0.0/16";
 
     // Create a new VPC
